@@ -43,18 +43,18 @@
     <h2>@list</h2>
 
     <h3>Unordered list</h3>
-    <ul>
+    <ul class="list-nonbullet">
         <li>first element in unordered list</li>
         <li>second element</li>
     </ul>
 
     <h3>Unordered reverse list</h3>
     <ul>
-        <li>first element in unordered list</li>
-        <li>second element</li>
+        <li class="link-item-inline">first element in unordered list</li>
+        <li class="link-item-inline">second element</li>
     </ul>
     <h3>Ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>Milk</li>
         <li>Break</li>
     </ol>
@@ -62,16 +62,16 @@
     <hr>
 
     <h2>@nav</h2>
-    <nav>
+    <nav class="navigation container">
 
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-nonbullet right">
+            <li class="link-item-inline link-active">
+                <a class="link" href="/">Home</a>
             </li>
 
-            <li>
-                <a href="/">Products</a>
+            <li class="link-item-inline">
+                <a class="link" href="/">Products</a>
             </li>
         </ul>
         <div>ToDo</div>
@@ -81,10 +81,10 @@
 
     <h2>@Header</h2>
 
-    <header>
-        <img
+    <header class="hero">
+        <img class="hero-img"
             src="https://media-exp2.licdn.com/dms/image/C5603AQG4q-6IClbkaQ/profile-displayphoto-shrink_400_400/0/1597947375068?e=1661385600&v=beta&t=GaX2vt6lcS1U0Sgo-05ms_pquOGpKHz3sSiaZcBz7qQ">
-        <h1>Hero</h1>
+        <h1 class="hero-heading">Hero <span class="hero-span"> heading </h1>
     </header>
 
     <!-- <div style="height: 20px;"></div> -->
@@ -93,13 +93,26 @@
 
     <h2>@section</h2>
 
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>Generating random paragraphs can be an excellent way for writers to get their creative flow going at the
+                beginning of the day. The writer has no idea what topic the random paragraph will be about when it
+                appears.
+                This forces the writer to use creativity to complete one of three common writing challenges. The writer
+                can
+                use the paragraph as the first one of a short story and build upon it. A second option is to use the
+                random
+                paragraph somewhere in a short story they create. The third option is to have the random paragraph be
+                the
+                ending paragraph in a short story. No matter which of these challenges is undertaken, the writer is
+                forced
+                to use creativity to incorporate the paragraph into their writing.</p>
+        </div>
     </section>
-    <section>
-        <h3>offwhite section</h3>
-        <p>This will have gray background </p>
+    <section class="section ow">
+        <h1>offwhite section</h1>
+        <p class="ow">This will have gray background </p>
     </section>
 
     <hr>
